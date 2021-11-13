@@ -6,8 +6,9 @@ public class Main {
 
         Odev cevaplar = new Odev();
         cevaplar.yas();
+        System.out.println("EN BUYUK SAYI: " + cevaplar.buyukSayi(30, 50, 20));
         cevaplar.enBuyukSayi();
-        cevaplar.ogrenciSonuc(50,60);
+        System.out.println("HARF NOTU: " + cevaplar.ogrenciSonuc(60, 70));
 
     }
 }
